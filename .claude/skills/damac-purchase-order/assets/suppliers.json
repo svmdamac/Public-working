@@ -1,0 +1,179 @@
+{
+  "_schema": "damac-po-supplier-terms/v1",
+  "_doc": "Agreed commercial terms per supplier. Every term carries a `status`: `verified` (confirmed against a signed DAMAC PO/LOA and dated) or `unverified` (placeholder -- MUST be confirmed before a final PO is issued). scripts/validate_po.py blocks a FINAL PO that relies on any `unverified` term; use --draft to produce a watermarked draft instead. Populate with scripts/learn_terms.py pointed at previous signed POs.",
+  "_fields": {
+    "payment_terms": "Credit period / milestones, counted from what event",
+    "advance_payment": "Advance or down payment %, and whether a bank guarantee is required against it",
+    "retention": "Retention % withheld per invoice and release conditions",
+    "delivery_terms": "Incoterm / delivery basis and who bears offloading",
+    "lead_time": "Agreed lead time from PO or from approved sample",
+    "warranty": "Warranty / defects liability period and basis",
+    "ld_clause": "Liquidated damages for late delivery -- rate and cap",
+    "price_validity": "How long rates in the PO are held",
+    "breakage_wastage": "Agreed breakage / wastage allowance on supply",
+    "samples_approval": "Sample and shade-card approval requirement before production",
+    "packing_marking": "Packing, palletising and marking requirement",
+    "insurance": "Who insures in transit",
+    "currency": "PO currency",
+    "vat": "VAT treatment and %",
+    "title_risk": "When title and risk pass to DAMAC",
+    "special_conditions": "Anything agreed uniquely with this supplier"
+  },
+
+  "suppliers": {
+    "rak-ceramics": {
+      "display_name": "RAK Ceramics PJSC",
+      "aliases": ["RAK", "RAK Ceramics", "RAKCeramics", "Ras Al Khaimah Ceramics"],
+      "category": "Tiles / sanitaryware -- UAE manufacturer",
+      "origin": "UAE (Ras Al Khaimah)",
+      "legal_name": {"value": null, "status": "unverified", "hint": "Full registered name + TRN as printed on their invoices"},
+      "address": {"value": null, "status": "unverified"},
+      "trn": {"value": null, "status": "unverified", "hint": "15-digit UAE TRN"},
+      "contact": {"value": null, "status": "unverified", "hint": "Sales contact named on previous POs"},
+      "terms": {
+        "currency": {"value": "AED", "status": "unverified", "hint": "Local manufacturer -- AED expected, confirm"},
+        "vat": {"value": "5% UAE VAT, shown separately", "status": "unverified"},
+        "payment_terms": {"value": null, "status": "unverified", "hint": "Local supply -- credit days from invoice/delivery. Read off a previous signed PO."},
+        "advance_payment": {"value": null, "status": "unverified"},
+        "retention": {"value": null, "status": "unverified", "hint": "Supply-only POs often carry nil retention -- confirm"},
+        "delivery_terms": {"value": null, "status": "unverified", "hint": "DDP site expected for a UAE manufacturer; confirm offloading responsibility"},
+        "lead_time": {"value": null, "status": "unverified"},
+        "warranty": {"value": null, "status": "unverified"},
+        "ld_clause": {"value": null, "status": "unverified"},
+        "price_validity": {"value": null, "status": "unverified"},
+        "breakage_wastage": {"value": null, "status": "unverified"},
+        "samples_approval": {"value": null, "status": "unverified", "hint": "Shade/calibre approval before bulk production"},
+        "packing_marking": {"value": null, "status": "unverified"},
+        "insurance": {"value": null, "status": "unverified"},
+        "title_risk": {"value": null, "status": "unverified"},
+        "special_conditions": {"value": null, "status": "unverified"}
+      },
+      "format": {
+        "template": null,
+        "line_item_unit_default": "m2",
+        "requires_shade_calibre_column": true,
+        "requires_origin_column": false,
+        "notes": ["Previous PMWeb attachment seen as 'Mykonos PO RAKCeramics.pdf' (P158 Damac Lagoons) -- a signed example to learn terms from."]
+      },
+      "known_pos": [
+        {"project": "P158 - Damac Lagoons", "cluster": "Mykonos", "ref": "see PMWeb commitment attachments", "status": "signed"}
+      ],
+      "last_verified": null
+    },
+
+    "al-anwar-ceramics": {
+      "display_name": "Al Anwar Ceramic Tiles Co.",
+      "aliases": ["Al Anwar", "Alanwar", "Al Anwar Ceramics", "AACT"],
+      "category": "Tiles -- GCC manufacturer",
+      "origin": "Oman (Sohar)",
+      "legal_name": {"value": null, "status": "unverified"},
+      "address": {"value": null, "status": "unverified"},
+      "trn": {"value": null, "status": "unverified", "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"},
+      "contact": {"value": null, "status": "unverified"},
+      "terms": {
+        "currency": {"value": null, "status": "unverified", "hint": "AED if billed through a UAE entity; confirm -- affects FX clause"},
+        "vat": {"value": null, "status": "unverified", "hint": "If imported, confirm whether VAT is reverse-charge or charged by a UAE distributor"},
+        "payment_terms": {"value": null, "status": "unverified"},
+        "advance_payment": {"value": null, "status": "unverified"},
+        "retention": {"value": null, "status": "unverified"},
+        "delivery_terms": {"value": null, "status": "unverified", "hint": "Cross-border GCC supply -- confirm DDP site vs CIF/ex-works and who clears customs"},
+        "lead_time": {"value": null, "status": "unverified", "hint": "Include road-freight transit from Sohar"},
+        "warranty": {"value": null, "status": "unverified"},
+        "ld_clause": {"value": null, "status": "unverified"},
+        "price_validity": {"value": null, "status": "unverified"},
+        "breakage_wastage": {"value": null, "status": "unverified"},
+        "samples_approval": {"value": null, "status": "unverified"},
+        "packing_marking": {"value": null, "status": "unverified"},
+        "insurance": {"value": null, "status": "unverified"},
+        "title_risk": {"value": null, "status": "unverified"},
+        "special_conditions": {"value": null, "status": "unverified", "hint": "Customs clearance / country-of-origin certificate obligations if imported"}
+      },
+      "format": {
+        "template": null,
+        "line_item_unit_default": "m2",
+        "requires_shade_calibre_column": true,
+        "requires_origin_column": true,
+        "notes": []
+      },
+      "known_pos": [],
+      "last_verified": null
+    },
+
+    "graniti": {
+      "display_name": "Graniti",
+      "aliases": ["Graniti", "Graniti Fiandre", "Granito"],
+      "category": "Porcelain / large-format slabs -- imported",
+      "origin": "Italy (confirm exact entity)",
+      "legal_name": {"value": null, "status": "unverified", "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"},
+      "address": {"value": null, "status": "unverified"},
+      "trn": {"value": null, "status": "unverified"},
+      "contact": {"value": null, "status": "unverified"},
+      "terms": {
+        "currency": {"value": null, "status": "unverified", "hint": "EUR likely for an Italian supplier -- if so the PO needs an FX/conversion note and the AED equivalent for PMWeb"},
+        "vat": {"value": null, "status": "unverified", "hint": "Import -- confirm reverse-charge treatment"},
+        "payment_terms": {"value": null, "status": "unverified", "hint": "Imported goods often LC or advance against proforma -- confirm"},
+        "advance_payment": {"value": null, "status": "unverified", "hint": "If an advance is agreed, state whether an advance payment bank guarantee is required"},
+        "retention": {"value": null, "status": "unverified"},
+        "delivery_terms": {"value": null, "status": "unverified", "hint": "Confirm Incoterm (EXW / FOB / CIF Jebel Ali / DDP site) -- this drives freight, duty and insurance cost ownership"},
+        "lead_time": {"value": null, "status": "unverified", "hint": "Production + sea freight + clearance; state each separately"},
+        "warranty": {"value": null, "status": "unverified"},
+        "ld_clause": {"value": null, "status": "unverified"},
+        "price_validity": {"value": null, "status": "unverified"},
+        "breakage_wastage": {"value": null, "status": "unverified", "hint": "Large-format slabs -- breakage allowance and replacement route matter"},
+        "samples_approval": {"value": null, "status": "unverified"},
+        "packing_marking": {"value": null, "status": "unverified", "hint": "A-frame / crate requirement for slabs"},
+        "insurance": {"value": null, "status": "unverified", "hint": "Marine insurance -- follows the Incoterm"},
+        "title_risk": {"value": null, "status": "unverified"},
+        "special_conditions": {"value": null, "status": "unverified", "hint": "Shipping documents required for clearance: invoice, packing list, BL, COO"}
+      },
+      "format": {
+        "template": null,
+        "line_item_unit_default": "m2",
+        "requires_shade_calibre_column": true,
+        "requires_origin_column": true,
+        "requires_shipping_docs_block": true,
+        "notes": ["Imported supply -- PO should carry a shipping-documents clause and the Incoterm in the header."]
+      },
+      "known_pos": [],
+      "last_verified": null
+    },
+
+    "pan-europe": {
+      "display_name": "Pan Europe",
+      "aliases": ["Pan Europe", "PanEurope", "Pan Europe Ceramics", "Pan Europe General Trading"],
+      "category": "Tiles / finishes -- supplier (confirm manufacturer vs trader)",
+      "origin": "confirm",
+      "legal_name": {"value": null, "status": "unverified"},
+      "address": {"value": null, "status": "unverified"},
+      "trn": {"value": null, "status": "unverified"},
+      "contact": {"value": null, "status": "unverified"},
+      "terms": {
+        "currency": {"value": null, "status": "unverified"},
+        "vat": {"value": null, "status": "unverified"},
+        "payment_terms": {"value": null, "status": "unverified"},
+        "advance_payment": {"value": null, "status": "unverified"},
+        "retention": {"value": null, "status": "unverified"},
+        "delivery_terms": {"value": null, "status": "unverified"},
+        "lead_time": {"value": null, "status": "unverified"},
+        "warranty": {"value": null, "status": "unverified"},
+        "ld_clause": {"value": null, "status": "unverified"},
+        "price_validity": {"value": null, "status": "unverified"},
+        "breakage_wastage": {"value": null, "status": "unverified"},
+        "samples_approval": {"value": null, "status": "unverified"},
+        "packing_marking": {"value": null, "status": "unverified"},
+        "insurance": {"value": null, "status": "unverified"},
+        "title_risk": {"value": null, "status": "unverified"},
+        "special_conditions": {"value": null, "status": "unverified", "hint": "If a trader rather than the manufacturer, the PO should bind them to the manufacturer's warranty and name the mill."}
+      },
+      "format": {
+        "template": null,
+        "line_item_unit_default": "m2",
+        "requires_shade_calibre_column": true,
+        "requires_origin_column": true,
+        "notes": []
+      },
+      "known_pos": [],
+      "last_verified": null
+    }
+  }
+}

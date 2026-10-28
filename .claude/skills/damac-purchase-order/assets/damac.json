@@ -1,0 +1,24 @@
+{
+  "_doc": "DAMAC buying-entity defaults. Confirm the entity against the project -- DAMAC contracts through several entities and the wrong one invalidates the PO.",
+  "default_entity_key": "damac-properties",
+  "entities": {
+    "damac-properties": {
+      "legal_name": {"value": null, "status": "unverified", "hint": "e.g. DAMAC Properties Co. LLC -- take the exact name from a previous signed PO"},
+      "address": {"value": null, "status": "unverified"},
+      "trn": {"value": null, "status": "unverified"},
+      "po_box": {"value": null, "status": "unverified"},
+      "signatory_block": [
+        {"role": "Prepared by", "name": null, "title": "Procurement"},
+        {"role": "Reviewed by", "name": null, "title": "Procurement Manager"},
+        {"role": "Approved by", "name": null, "title": "Head of Procurement"}
+      ]
+    }
+  },
+  "projects": {
+    "P158": {"name": "Damac Lagoons", "clusters": ["Mykonos"]},
+    "P110": {"name": "Damac City (Al Safa Park)", "clusters": []},
+    "P106": {"name": "Damac Hills 2", "clusters": []},
+    "BDP200.002": {"name": "Shoreline", "clusters": []}
+  },
+  "_projects_note": "Codes observed in PMWeb records. Extend as needed; the builder does not require a project to be listed here."
+}

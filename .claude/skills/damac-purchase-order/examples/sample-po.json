@@ -1,0 +1,82 @@
+{
+  "_doc": "Worked example -- P158 Damac Lagoons / Mykonos, FOH tiles from RAK Ceramics. Figures are illustrative. Copy this file and edit it; do not issue it.",
+  "po_number": "PO-2489",
+  "po_reference": "P158.19-NAA-SM-RD-RR-KK-PO-2489-R0",
+  "po_date": "2026-10-28",
+  "revision": "R0",
+  "buyer_entity_key": "damac-properties",
+  "project": {
+    "code": "P158",
+    "name": "Damac Lagoons",
+    "cluster": "Mykonos",
+    "building": ""
+  },
+  "supplier_key": "rak-ceramics",
+  "currency": "AED",
+  "vat_percent": 5,
+  "budget_amount": 1250000,
+  "references": {
+    "rfp": "P158-RFP-PN-014",
+    "rfa": "P158-RFA-PN-014",
+    "loa": "P158.19-NAA-SM-RD-RR-KK-LOA-0312",
+    "loa_date": "2026-10-14",
+    "quotation": "RAK/QTN/2026/8841",
+    "quotation_date": "2026-09-30"
+  },
+  "delivery": {
+    "site": "Damac Lagoons -- Mykonos Cluster, Dubailand, Dubai, UAE",
+    "incoterm": "DDP Site, including offloading",
+    "required_on_site": "2026-12-15",
+    "programme": "Phased against the cluster handover programme; 4 weeks' notice per release."
+  },
+  "line_items": [
+    {
+      "item": "1",
+      "description": "Porcelain floor tile, FOH corridors -- rectified, matt finish",
+      "spec": "600 x 600 x 9 mm",
+      "shade_calibre": "Shade A / Cal. 1",
+      "origin": "UAE",
+      "unit": "m2",
+      "qty": 8400,
+      "rate": 62.5,
+      "discount_percent": 7.5
+    },
+    {
+      "item": "2",
+      "description": "Porcelain wall tile, FOH lobby feature wall",
+      "spec": "1200 x 600 x 10 mm",
+      "shade_calibre": "Shade A / Cal. 1",
+      "origin": "UAE",
+      "unit": "m2",
+      "qty": 1150,
+      "rate": 118.0,
+      "discount_percent": 7.5
+    },
+    {
+      "item": "3",
+      "description": "Matching skirting, cut from the floor tile above",
+      "spec": "600 x 100 mm",
+      "shade_calibre": "Shade A / Cal. 1",
+      "origin": "UAE",
+      "unit": "LM",
+      "qty": 2600,
+      "rate": 14.0,
+      "discount_percent": 7.5
+    }
+  ],
+  "lump_sums": [
+    {
+      "description": "Attic stock -- 2% of each item, delivered and stacked at the site store",
+      "amount": 12500
+    }
+  ],
+  "adjustments": [],
+  "additional_terms": [
+    "Rates are fixed for the full duration of the order and are not subject to escalation.",
+    "Deliveries are to be made against written release notices only; material delivered without a release notice is at the supplier's risk.",
+    "All items on this order are to be from a single production batch unless DAMAC approves otherwise in writing."
+  ],
+  "notes": [
+    "Attic stock is to be delivered with the final release and handed over against a signed store receipt."
+  ]
+}
