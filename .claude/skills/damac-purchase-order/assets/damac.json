@@ -1,105 +1,27 @@
 {
-  "_doc": "DAMAC buying-entity defaults. DAMAC contracts through a different project-specific SPV on every PO seen so far -- there is no single default. Resolve buyer_entity_key from the project/cluster before drafting; if unsure which entity applies, ask rather than guess.",
+  "_doc": "DAMAC buying-entity defaults, confirmed from the RAK Ceramics PO Register (35 signed POs, 06-Oct-2026) plus other signed POs reviewed. DAMAC contracts through a different project-specific SPV per master plan -- there is no single default. Resolve buyer_entity_key from the project code's prefix below before drafting; if the project code isn't listed, ask rather than guess the entity.",
   "default_entity_key": null,
   "entities": {
     "island-oasis-properties": {
       "legal_name": {
         "value": "Island Oasis Properties LLC",
         "status": "verified",
-        "source": "PO-2138-2026 / PO-2378-2026 / PO-3700-2026 (P158 Damac Lagoons)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "address": {
         "value": "P.O. Box 2195, Dubai, United Arab Emirates",
         "status": "verified",
-        "source": "PO-2138-2026 / PO-2378-2026 / PO-3700-2026 (P158 Damac Lagoons)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "trn": {
-        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
         "status": "verified",
-        "source": "PO-2138-2026 / PO-2378-2026 / PO-3700-2026 (P158 Damac Lagoons)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "po_box": {
         "value": "2195",
         "status": "verified",
-        "source": "PO-2138-2026 / PO-2378-2026 / PO-3700-2026 (P158 Damac Lagoons)"
-      },
-      "signatory_block": [
-        {
-          "role": "Prepared by",
-          "name": null,
-          "title": "Procurement"
-        },
-        {
-          "role": "Reviewed by",
-          "name": null,
-          "title": "Procurement Manager"
-        },
-        {
-          "role": "Approved by",
-          "name": null,
-          "title": "Head of Procurement"
-        }
-      ]
-    },
-    "damac-jr-two-investment": {
-      "legal_name": {
-        "value": "DAMAC J R TWO Investment Co LLC",
-        "status": "verified",
-        "source": "PO-1386-2026 (P162 Bay 01)"
-      },
-      "address": {
-        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
-        "status": "verified",
-        "source": "PO-1386-2026 (P162 Bay 01)"
-      },
-      "trn": {
-        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
-        "status": "verified",
-        "source": "PO-1386-2026 (P162 Bay 01)"
-      },
-      "po_box": {
-        "value": "2195",
-        "status": "verified",
-        "source": "PO-1386-2026 (P162 Bay 01)"
-      },
-      "signatory_block": [
-        {
-          "role": "Prepared by",
-          "name": null,
-          "title": "Procurement"
-        },
-        {
-          "role": "Reviewed by",
-          "name": null,
-          "title": "Procurement Manager"
-        },
-        {
-          "role": "Approved by",
-          "name": null,
-          "title": "Head of Procurement"
-        }
-      ]
-    },
-    "damac-csl-investment": {
-      "legal_name": {
-        "value": "Damac C S L Investment LLC",
-        "status": "verified",
-        "source": "PO-1547-2026 (P175 Volta Tower)"
-      },
-      "address": {
-        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
-        "status": "verified",
-        "source": "PO-1547-2026 (P175 Volta Tower)"
-      },
-      "trn": {
-        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
-        "status": "verified",
-        "source": "PO-1547-2026 (P175 Volta Tower)"
-      },
-      "po_box": {
-        "value": "2195",
-        "status": "verified",
-        "source": "PO-1547-2026 (P175 Volta Tower)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "signatory_block": [
         {
@@ -123,22 +45,61 @@
       "legal_name": {
         "value": "Front Line Investment Management LLC",
         "status": "verified",
-        "source": "PO-1617-2026 (P106.36 Damac Hills 2, Evergreen)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "address": {
         "value": "P.O. Box 2195, Dubai, United Arab Emirates",
         "status": "verified",
-        "source": "PO-1617-2026 (P106.36 Damac Hills 2, Evergreen)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "trn": {
-        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
         "status": "verified",
-        "source": "PO-1617-2026 (P106.36 Damac Hills 2, Evergreen)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "po_box": {
         "value": "2195",
         "status": "verified",
-        "source": "PO-1617-2026 (P106.36 Damac Hills 2, Evergreen)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "signatory_block": [
+        {
+          "role": "Prepared by",
+          "name": null,
+          "title": "Procurement"
+        },
+        {
+          "role": "Reviewed by",
+          "name": null,
+          "title": "Procurement Manager"
+        },
+        {
+          "role": "Approved by",
+          "name": null,
+          "title": "Head of Procurement"
+        }
+      ]
+    },
+    "damac-elite-investment": {
+      "legal_name": {
+        "value": "Damac Elite Investment Co LLC",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "trn": {
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "po_box": {
+        "value": "2195",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "signatory_block": [
         {
@@ -162,22 +123,139 @@
       "legal_name": {
         "value": "Damac MRY Investment LLC",
         "status": "verified",
-        "source": "PO-1616-2026 (MC201.0304 Damac Riverside, Olive)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "address": {
         "value": "P.O. Box 2195, Dubai, United Arab Emirates",
         "status": "verified",
-        "source": "PO-1616-2026 (MC201.0304 Damac Riverside, Olive)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "trn": {
-        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
         "status": "verified",
-        "source": "PO-1616-2026 (MC201.0304 Damac Riverside, Olive)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "po_box": {
         "value": "2195",
         "status": "verified",
-        "source": "PO-1616-2026 (MC201.0304 Damac Riverside, Olive)"
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "signatory_block": [
+        {
+          "role": "Prepared by",
+          "name": null,
+          "title": "Procurement"
+        },
+        {
+          "role": "Reviewed by",
+          "name": null,
+          "title": "Procurement Manager"
+        },
+        {
+          "role": "Approved by",
+          "name": null,
+          "title": "Head of Procurement"
+        }
+      ]
+    },
+    "damac-canal-one-property-development": {
+      "legal_name": {
+        "value": "Damac Canal One Property Development LLC",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "trn": {
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "po_box": {
+        "value": "2195",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "signatory_block": [
+        {
+          "role": "Prepared by",
+          "name": null,
+          "title": "Procurement"
+        },
+        {
+          "role": "Reviewed by",
+          "name": null,
+          "title": "Procurement Manager"
+        },
+        {
+          "role": "Approved by",
+          "name": null,
+          "title": "Head of Procurement"
+        }
+      ]
+    },
+    "damac-csl-investment": {
+      "legal_name": {
+        "value": "Damac C S L Investment LLC",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "trn": {
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "po_box": {
+        "value": "2195",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "signatory_block": [
+        {
+          "role": "Prepared by",
+          "name": null,
+          "title": "Procurement"
+        },
+        {
+          "role": "Reviewed by",
+          "name": null,
+          "title": "Procurement Manager"
+        },
+        {
+          "role": "Approved by",
+          "name": null,
+          "title": "Head of Procurement"
+        }
+      ]
+    },
+    "aqua-viridis-investment": {
+      "legal_name": {
+        "value": "Aqua Viridis Investment LLC",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "trn": {
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
+      },
+      "po_box": {
+        "value": "2195",
+        "status": "verified",
+        "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs)"
       },
       "signatory_block": [
         {
@@ -201,36 +279,69 @@
   "projects": {
     "P158": {
       "name": "Damac Lagoons",
+      "entity_key": "island-oasis-properties",
       "clusters": [
         "Mykonos",
         "Morocco",
-        "Nice 2"
-      ],
-      "entity_key": "island-oasis-properties"
-    },
-    "P162": {
-      "name": "Bay 01",
-      "clusters": [],
-      "entity_key": "damac-jr-two-investment"
-    },
-    "P175": {
-      "name": "Volta Tower",
-      "clusters": [],
-      "entity_key": "damac-csl-investment"
+        "Nice 2",
+        "Nice 3",
+        "Ibiza",
+        "Marbella",
+        "Montecarlo",
+        "Lagoon Views 01-12"
+      ]
     },
     "P106": {
       "name": "Damac Hills 2",
+      "entity_key": "front-line-investment-management",
       "clusters": [
-        "Evergreen"
-      ],
-      "entity_key": "front-line-investment-management"
+        "Evergreen",
+        "Violet 2",
+        "Violet 3",
+        "Violet 4",
+        "Elo Park"
+      ]
+    },
+    "P179": {
+      "name": "Damac Islands",
+      "entity_key": "damac-elite-investment",
+      "clusters": [
+        "Maldives 1",
+        "Maldives 2",
+        "Maldives 3"
+      ]
     },
     "MC201": {
       "name": "Damac Riverside",
+      "entity_key": "damac-mry-investment",
       "clusters": [
-        "Olive"
-      ],
-      "entity_key": "damac-mry-investment"
+        "Ivy",
+        "Sage",
+        "Olive",
+        "Marine (2 Floor Mockup)"
+      ]
+    },
+    "P160": {
+      "name": "Safa Two",
+      "entity_key": "damac-canal-one-property-development",
+      "clusters": [
+        "FOH"
+      ]
+    },
+    "P175": {
+      "name": "Volta Tower",
+      "entity_key": "damac-csl-investment",
+      "clusters": [
+        "Bedroom",
+        "Luxury-Bathroom"
+      ]
+    },
+    "P176": {
+      "name": "Damac Casa",
+      "entity_key": "aqua-viridis-investment",
+      "clusters": [
+        "Balcony"
+      ]
     },
     "P110": {
       "name": "Damac City (Al Safa Park)",
@@ -241,5 +352,5 @@
       "clusters": []
     }
   },
-  "_projects_note": "entity_key is the First Party confirmed from a signed PO for that project/cluster. A project without entity_key has not been confirmed -- do not guess it, ask or read it off a previous PO for that project."
+  "_projects_note": "entity_key confirmed from the RAK Ceramics PO Register (06-Oct-2026) covering all 35 of their signed POs, cross-checked against the Graniti/Al Anwar/Pan Europe POs reviewed separately. A project without entity_key has not been confirmed -- do not guess it, ask or read it off a previous PO for that project."
 }

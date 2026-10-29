@@ -62,9 +62,9 @@
           "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026, cl. Others(i)"
         },
         "payment_terms": {
-          "value": "Two forms seen on signed POs -- confirm which applies before using either as default:\n(A) Direct payment (PO-1617-2026, 11 Jul 2026): Advance Payment invoice submitted on signing; balance paid 30 calendar days from the date of receipt of the invoice, accompanied by signed delivery notes.\n(B) Letter of Credit (PO-1616-2026, 18 Jul 2026 and PO-3700-2026, 14 Sep 2026 -- the two more recent POs): First Party provides an LC for 100% of the PO Price inclusive of VAT. Advance Payment = 20% of LC value, paid on submission of an adequate/substantial invoice. Progress Payment = 80% of LC value per delivery, paid within 30 calendar days of the First Party receiving a commercial invoice and delivery notes confirming delivery to site.",
+          "value": "Negotiated per PO -- genuinely split across RAK's signed POs (18 Direct / 17 LC out of 35 in the 06-Oct-2026 register; both forms appear within the same master plan, so it is not date- or project-based). Confirm which applies before drafting -- do not default without asking:\n(A) Direct payment: Advance Payment invoice submitted on signing (commencement tied to that); balance paid 30 calendar days from the date the First Party receives the invoice, accompanied by signed delivery notes.\n(B) Letter of Credit: First Party provides an LC for 100% of the PO Price inclusive of VAT. Advance Payment = 20% of LC value, paid on submission of an adequate/substantial invoice. Progress Payment = 80% of LC value per delivery, paid within 30 calendar days of the First Party receiving a commercial invoice and delivery notes confirming delivery to site.",
           "status": "verified",
-          "source": "PO-1617-2026 cl.4-5; PO-1616-2026 cl.5-6; PO-3700-2026 cl.5-6"
+          "source": "RAK Ceramics PO Register (06-Oct-2026, 35 signed POs); PO-1617/1616/3700-2026 read directly"
         },
         "advance_payment": {
           "value": "20% of the Purchase Order Price.",
@@ -143,10 +143,48 @@
       },
       "known_pos": [
         {
-          "project": "P158 - Damac Lagoons",
-          "cluster": "Mykonos",
-          "ref": "see PMWeb commitment attachments",
-          "status": "signed"
+          "project": "P158 Damac Lagoons",
+          "clusters": [
+            "Mykonos",
+            "Morocco",
+            "Nice 2",
+            "Nice 3",
+            "Ibiza",
+            "Marbella",
+            "Montecarlo",
+            "Lagoon Views 01-12"
+          ],
+          "status": "signed, in register"
+        },
+        {
+          "project": "P106 Damac Hills 2",
+          "clusters": [
+            "Evergreen",
+            "Violet 2",
+            "Violet 3",
+            "Violet 4",
+            "Elo Park"
+          ],
+          "status": "signed, in register"
+        },
+        {
+          "project": "P179 Damac Islands",
+          "clusters": [
+            "Maldives 1",
+            "Maldives 2",
+            "Maldives 3"
+          ],
+          "status": "signed, in register"
+        },
+        {
+          "project": "MC201 Damac Riverside",
+          "clusters": [
+            "Ivy",
+            "Sage",
+            "Olive",
+            "Marine (2 Floor Mockup)"
+          ],
+          "status": "signed, in register"
         }
       ],
       "last_verified": "2026-10-29"
