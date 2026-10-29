@@ -31,23 +31,28 @@
       "category": "Tiles / sanitaryware -- UAE manufacturer",
       "origin": "UAE (Ras Al Khaimah)",
       "legal_name": {
-        "value": null,
-        "status": "unverified",
-        "hint": "Full registered name + TRN as printed on their invoices"
+        "value": "RAK Ceramics P.J.S.C.",
+        "status": "verified",
+        "source": "Quotation TSQ066 (8 Oct 2026) and PO-1616",
+        "date": "2026-10-08"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "P.O. Box 4714, Ras Al Khaimah, United Arab Emirates. Tel 00971-7-2467000, Fax 00971-7-2445057, localsales@rakceram.com",
+        "status": "verified",
+        "source": "Quotation TSQ066 letterhead (8 Oct 2026). Note: PO-1616 printed P.O. Box 29860 / Tel 269 1377, which are Graniti's details",
+        "date": "2026-10-08"
       },
       "trn": {
-        "value": null,
-        "status": "unverified",
-        "hint": "15-digit UAE TRN"
+        "value": "100244726400003",
+        "status": "verified",
+        "source": "RAK Ceramics proforma invoices PI-6830 (14 May 2026), PI-6896, PI-7158 (19 Aug 2026)",
+        "date": "2026-08-19"
       },
       "contact": {
-        "value": null,
-        "status": "unverified",
-        "hint": "Sales contact named on previous POs"
+        "value": "Mr. Faisal Abdurahman, +971 52 420 0507 (PO attention). Quotations: Saurabh Pathak, Senior Sales Executive, Dubai Project Sales, saurabh.pathak@rakceramics.com",
+        "status": "verified",
+        "source": "PO-1616 (18 Jul 2026); quotation TSQ066",
+        "date": "2026-10-08"
       },
       "terms": {
         "currency": {
@@ -159,21 +164,31 @@
       "category": "Tiles -- GCC manufacturer",
       "origin": "Oman (Sohar)",
       "legal_name": {
-        "value": null,
-        "status": "unverified"
+        "value": "Al Anwar Ceramic Tiles Company SAOG (Oman; C.R. No. 1547623, Muscat)",
+        "status": "verified",
+        "source": "Oman trade licence (valid to 2027) and supplier invoices June 2026",
+        "date": "2026-06-16"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "Oman office: Suite 301, Beach One Building, Way No. 2601, Shatti Al Qurum, P.O. Box 143, PC 118, Muscat. Factory: P.O. Box 1126, Nizwa, PC 611. Tel (00968) 24649093. Dubai office per PO-2378: 20th Floor, Tecom, Dubai",
+        "status": "unverified",
+        "source": "Invoice AACTCO/001/2026-06 letterhead (scanned text, partly garbled) and PO-2378",
+        "date": "2026-06-16",
+        "note": "Scan text is garbled; confirm against the trade licence"
       },
       "trn": {
-        "value": null,
+        "value": "VATIN OM1100020889 (Oman VAT; UAE TRN not applicable)",
         "status": "unverified",
+        "source": "Invoice AACTCO/001/2026-06 (16 Jun 2026), read from scan",
+        "date": "2026-06-16",
+        "note": "Digits read from OCR and read two different ways across invoices; confirm before use",
         "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"
       },
       "contact": {
-        "value": null,
-        "status": "unverified"
+        "value": "Mr. Avit Almeida (Sr. Country Manager), +971 55 439 8394",
+        "status": "verified",
+        "source": "PO P158.14-...-PO-2378-2026 (29 Jun 2026)",
+        "date": "2026-06-29"
       },
       "terms": {
         "currency": {
@@ -267,21 +282,28 @@
       "category": "Porcelain / large-format slabs -- imported",
       "origin": "Italy (confirm exact entity)",
       "legal_name": {
-        "value": null,
-        "status": "unverified",
-        "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"
+        "value": "GRANITI BUILDING MATERIALS (L.L.C.)",
+        "status": "verified",
+        "source": "FTA VAT registration certificate (issued 18/12/2017)",
+        "date": "2017-12-18"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "Al Shaya Building, Showroom No. 6, Salahu Din Street, Deira, Dubai, UAE. P.O. Box 29860. Tel +971 4 269 1377",
+        "status": "verified",
+        "source": "FTA VAT registration certificate",
+        "date": "2017-12-18"
       },
       "trn": {
-        "value": null,
-        "status": "unverified"
+        "value": "100215971100003",
+        "status": "verified",
+        "source": "FTA VAT registration certificate (effective 01/01/2018)",
+        "date": "2017-12-18"
       },
       "contact": {
-        "value": null,
-        "status": "unverified"
+        "value": "Mr. Haider Ali, +971 52 690 6338",
+        "status": "verified",
+        "source": "PO P176-...-PO-4382-2026 (14 Oct 2026)",
+        "date": "2026-10-14"
       },
       "terms": {
         "currency": {
@@ -389,20 +411,28 @@
       "category": "Tiles / finishes -- supplier (confirm manufacturer vs trader)",
       "origin": "confirm",
       "legal_name": {
-        "value": null,
-        "status": "unverified"
+        "value": "Pan Europe International General Trading Co. LLC",
+        "status": "verified",
+        "source": "PO P175-...-PO-4325-2026; quotation PEI/DAMAC/QT/26/30 writes it as PAN EUROPE INT'L GEN. TRADING CO. LLC",
+        "date": "2026-10-21",
+        "note": "Check exact name against trade licence or VAT certificate"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "P.O. Box 80937, Dubai, UAE. Tel +971 4 298 9878, Fax +971 4 298 9879, contact@paneurope-gt.com",
+        "status": "verified",
+        "source": "Quotation PEI/DAMAC/QT/26/30 (5 Apr 2026) and PO-4325",
+        "date": "2026-10-21"
       },
       "trn": {
         "value": null,
-        "status": "unverified"
+        "status": "unverified",
+        "source": "Not found in OneDrive or Outlook"
       },
       "contact": {
-        "value": null,
-        "status": "unverified"
+        "value": "Mr. Abdel Qader Al Kadri, +971 55 551 6822",
+        "status": "verified",
+        "source": "PO-4325 (21 Oct 2026)",
+        "date": "2026-10-21"
       },
       "terms": {
         "currency": {
