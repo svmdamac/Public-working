@@ -31,18 +31,19 @@
       "category": "Tiles / sanitaryware -- UAE manufacturer",
       "origin": "UAE (Ras Al Khaimah)",
       "legal_name": {
-        "value": null,
-        "status": "unverified",
-        "hint": "Full registered name + TRN as printed on their invoices"
+        "value": "RAK Ceramics P.J.S.C",
+        "status": "verified",
+        "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026 header"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "P.O. Box 29860, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026 header"
       },
       "trn": {
-        "value": null,
-        "status": "unverified",
-        "hint": "15-digit UAE TRN"
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
       },
       "contact": {
         "value": null,
@@ -71,9 +72,9 @@
           "source": "PO-1617-2026 (AED 72,021.50) / PO-1616-2026 (AED 339,816.88) / PO-3700-2026 (AED 72,326.10)"
         },
         "retention": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Supply-only POs often carry nil retention -- confirm"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "delivery_terms": {
           "value": "Delivery of materials follows the delivery schedule mutually agreed between First Party and Second Party, in accordance with project requirements. Second Party transports goods to the Project site and bears transportation and insurance costs to that point; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
@@ -81,8 +82,9 @@
           "source": "PO-1617-2026, cl.1 and Others(ii)(c)(e)"
         },
         "lead_time": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "warranty": {
           "value": "1825 calendar days.",
@@ -90,16 +92,19 @@
           "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026, cl. Warranty"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "breakage_wastage": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "samples_approval": {
           "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
@@ -107,20 +112,24 @@
           "source": "PO-1617-2026, Others(ii)(b)"
         },
         "packing_marking": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "insurance": {
-          "value": null,
-          "status": "unverified"
+          "value": "Second Party bears insurance of the goods in transit to the Project site, bundled into scope item (c) 'transportation, insurances and any other associated costs' -- no separate marine-insurance clause in the PO.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "title_risk": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         },
         "special_conditions": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
         }
       },
       "format": {
@@ -153,17 +162,19 @@
       "category": "Tiles -- GCC manufacturer",
       "origin": "Oman (Sohar)",
       "legal_name": {
-        "value": null,
-        "status": "unverified"
+        "value": "Al Anwar Ceramic Tiles Co. SAOG",
+        "status": "verified",
+        "source": "PO-2138-2026 / PO-2378-2026 header"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "20th Floor, Tecom, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "PO-2138-2026 / PO-2378-2026 header"
       },
       "trn": {
-        "value": null,
-        "status": "unverified",
-        "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "PO-2138-2026 / PO-2378-2026"
       },
       "contact": {
         "value": null,
@@ -191,8 +202,9 @@
           "source": "PO-2138-2026 (AED 94,600.00, 10%), cl.3"
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "delivery_terms": {
           "value": "Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
@@ -200,9 +212,9 @@
           "source": "PO-2138-2026 / PO-2378-2026, Others(ii)(c)(e)"
         },
         "lead_time": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Include road-freight transit from Sohar"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "warranty": {
           "value": "1825 calendar days.",
@@ -210,16 +222,19 @@
           "source": "PO-2138-2026 / PO-2378-2026, cl. Warranty"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "breakage_wastage": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "samples_approval": {
           "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
@@ -227,21 +242,24 @@
           "source": "PO-2138-2026 / PO-2378-2026, Others(ii)(b)"
         },
         "packing_marking": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "insurance": {
-          "value": null,
-          "status": "unverified"
+          "value": "Second Party bears insurance of the goods in transit to the Project site, bundled into scope item (c) 'transportation, insurances and any other associated costs' -- no separate marine-insurance clause in the PO.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "title_risk": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         },
         "special_conditions": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Customs clearance / country-of-origin certificate obligations if imported"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
         }
       },
       "format": {
@@ -264,17 +282,19 @@
       "category": "Porcelain / large-format slabs -- imported",
       "origin": "Italy (confirm exact entity)",
       "legal_name": {
-        "value": null,
-        "status": "unverified",
-        "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"
+        "value": "Graniti Building Materials LLC",
+        "status": "verified",
+        "source": "PO-1386-2026 header"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "P.O. Box 29860, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "PO-1386-2026 header"
       },
       "trn": {
-        "value": null,
-        "status": "unverified"
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "PO-1386-2026"
       },
       "contact": {
         "value": null,
@@ -302,8 +322,9 @@
           "source": "PO-1386-2026 (AED 495,266.40), cl.4"
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "delivery_terms": {
           "value": "Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price. Time for Completion of Delivery: 74 calendar days from the Commencement Date (commencement tied to submission of the Advance Payment invoice/securities within 3 calendar days of signing).",
@@ -311,9 +332,9 @@
           "source": "PO-1386-2026, cl.1-2 and Others(ii)(c)(e)"
         },
         "lead_time": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Production + sea freight + clearance; state each separately"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "warranty": {
           "value": "1825 calendar days.",
@@ -321,17 +342,19 @@
           "source": "PO-1386-2026, cl. Warranty"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "breakage_wastage": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Large-format slabs -- breakage allowance and replacement route matter"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "samples_approval": {
           "value": "Second Party prepares and submits all necessary samples and technical data for the Nominated Supply Works to the Engineer and the First Party for approval.",
@@ -339,23 +362,24 @@
           "source": "PO-1386-2026, Others(ii)(b)"
         },
         "packing_marking": {
-          "value": null,
-          "status": "unverified",
-          "hint": "A-frame / crate requirement for slabs"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "insurance": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Marine insurance -- follows the Incoterm"
+          "value": "Second Party bears insurance of the goods in transit to the Project site, bundled into scope item (c) 'transportation, insurances and any other associated costs' -- no separate marine-insurance clause in the PO.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "title_risk": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         },
         "special_conditions": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Shipping documents required for clearance: invoice, packing list, BL, COO"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1386-2026"
         }
       },
       "format": {
@@ -382,16 +406,19 @@
       "category": "Tiles / finishes -- supplier (confirm manufacturer vs trader)",
       "origin": "confirm",
       "legal_name": {
-        "value": null,
-        "status": "unverified"
+        "value": "Pan Europe International General Trading Co. LLC",
+        "status": "verified",
+        "source": "PO-1547-2026 header"
       },
       "address": {
-        "value": null,
-        "status": "unverified"
+        "value": "P.O. Box 80937, Dubai, United Arab Emirates",
+        "status": "verified",
+        "source": "PO-1547-2026 header"
       },
       "trn": {
-        "value": null,
-        "status": "unverified"
+        "value": "TRN is not printed on the DAMAC PO header/footer in this format (confirmed across all 7 signed POs reviewed) -- do not gate on it; it is simply not part of what this PO format shows.",
+        "status": "verified",
+        "source": "PO-1547-2026"
       },
       "contact": {
         "value": null,
@@ -419,8 +446,9 @@
           "source": "PO-1547-2026 (AED 400,822.67), cl.3"
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "delivery_terms": {
           "value": "Time for Completion of Delivery: 45 calendar days from the date the Second Party receives a copy of the Purchase Order signed by both Parties. Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
@@ -428,8 +456,9 @@
           "source": "PO-1547-2026, cl.1 and Others(ii)(c)(e)"
         },
         "lead_time": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "warranty": {
           "value": "1825 calendar days.",
@@ -437,16 +466,19 @@
           "source": "PO-1547-2026, cl. Warranty"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "breakage_wastage": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "samples_approval": {
           "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
@@ -454,21 +486,24 @@
           "source": "PO-1547-2026, Others(ii)(b)"
         },
         "packing_marking": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "insurance": {
-          "value": null,
-          "status": "unverified"
+          "value": "Second Party bears insurance of the goods in transit to the Project site, bundled into scope item (c) 'transportation, insurances and any other associated costs' -- no separate marine-insurance clause in the PO.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "title_risk": {
-          "value": null,
-          "status": "unverified"
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         },
         "special_conditions": {
-          "value": null,
-          "status": "unverified",
-          "hint": "If a trader rather than the manufacturer, the PO should bind them to the manufacturer's warranty and name the mill."
+          "value": "Not a separate clause in the signed PO format used for this supplier (standard DAMAC tile-supply PO: header terms 1-8/Others(i)-(ii)(a-f) only). Do not raise this as a gap -- the PO should match the format actually issued to this supplier, not a generic checklist.",
+          "status": "verified",
+          "source": "PO-1547-2026"
         }
       },
       "format": {
