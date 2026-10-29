@@ -19,74 +19,230 @@
     "title_risk": "When title and risk pass to DAMAC",
     "special_conditions": "Anything agreed uniquely with this supplier"
   },
-
   "suppliers": {
     "rak-ceramics": {
       "display_name": "RAK Ceramics PJSC",
-      "aliases": ["RAK", "RAK Ceramics", "RAKCeramics", "Ras Al Khaimah Ceramics"],
+      "aliases": [
+        "RAK",
+        "RAK Ceramics",
+        "RAKCeramics",
+        "Ras Al Khaimah Ceramics"
+      ],
       "category": "Tiles / sanitaryware -- UAE manufacturer",
       "origin": "UAE (Ras Al Khaimah)",
-      "legal_name": {"value": null, "status": "unverified", "hint": "Full registered name + TRN as printed on their invoices"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified", "hint": "15-digit UAE TRN"},
-      "contact": {"value": null, "status": "unverified", "hint": "Sales contact named on previous POs"},
+      "legal_name": {
+        "value": null,
+        "status": "unverified",
+        "hint": "Full registered name + TRN as printed on their invoices"
+      },
+      "address": {
+        "value": null,
+        "status": "unverified"
+      },
+      "trn": {
+        "value": null,
+        "status": "unverified",
+        "hint": "15-digit UAE TRN"
+      },
+      "contact": {
+        "value": null,
+        "status": "unverified",
+        "hint": "Sales contact named on previous POs"
+      },
       "terms": {
-        "currency": {"value": "AED", "status": "unverified", "hint": "Local manufacturer -- AED expected, confirm"},
-        "vat": {"value": "5% UAE VAT, shown separately", "status": "unverified"},
-        "payment_terms": {"value": null, "status": "unverified", "hint": "Local supply -- credit days from invoice/delivery. Read off a previous signed PO."},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified", "hint": "Supply-only POs often carry nil retention -- confirm"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "DDP site expected for a UAE manufacturer; confirm offloading responsibility"},
-        "lead_time": {"value": null, "status": "unverified"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified", "hint": "Shade/calibre approval before bulk production"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026"
+        },
+        "vat": {
+          "value": "VAT imposed by the Government of the UAE is excluded from the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026, cl. Others(i)"
+        },
+        "payment_terms": {
+          "value": "Two forms seen on signed POs -- confirm which applies before using either as default:\n(A) Direct payment (PO-1617-2026, 11 Jul 2026): Advance Payment invoice submitted on signing; balance paid 30 calendar days from the date of receipt of the invoice, accompanied by signed delivery notes.\n(B) Letter of Credit (PO-1616-2026, 18 Jul 2026 and PO-3700-2026, 14 Sep 2026 -- the two more recent POs): First Party provides an LC for 100% of the PO Price inclusive of VAT. Advance Payment = 20% of LC value, paid on submission of an adequate/substantial invoice. Progress Payment = 80% of LC value per delivery, paid within 30 calendar days of the First Party receiving a commercial invoice and delivery notes confirming delivery to site.",
+          "status": "verified",
+          "source": "PO-1617-2026 cl.4-5; PO-1616-2026 cl.5-6; PO-3700-2026 cl.5-6"
+        },
+        "advance_payment": {
+          "value": "20% of the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1617-2026 (AED 72,021.50) / PO-1616-2026 (AED 339,816.88) / PO-3700-2026 (AED 72,326.10)"
+        },
+        "retention": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Supply-only POs often carry nil retention -- confirm"
+        },
+        "delivery_terms": {
+          "value": "Delivery of materials follows the delivery schedule mutually agreed between First Party and Second Party, in accordance with project requirements. Second Party transports goods to the Project site and bears transportation and insurance costs to that point; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1617-2026, cl.1 and Others(ii)(c)(e)"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified"
+        },
+        "warranty": {
+          "value": "1825 calendar days.",
+          "status": "verified",
+          "source": "PO-1617-2026 / PO-1616-2026 / PO-3700-2026, cl. Warranty"
+        },
+        "ld_clause": {
+          "value": null,
+          "status": "unverified"
+        },
+        "price_validity": {
+          "value": null,
+          "status": "unverified"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
+          "status": "verified",
+          "source": "PO-1617-2026, Others(ii)(b)"
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": null,
+          "status": "unverified"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": null,
+          "status": "unverified"
+        }
       },
       "format": {
         "template": null,
         "line_item_unit_default": "m2",
         "requires_shade_calibre_column": true,
         "requires_origin_column": false,
-        "notes": ["Previous PMWeb attachment seen as 'Mykonos PO RAKCeramics.pdf' (P158 Damac Lagoons) -- a signed example to learn terms from."]
+        "notes": [
+          "Previous PMWeb attachment seen as 'Mykonos PO RAKCeramics.pdf' (P158 Damac Lagoons) -- a signed example to learn terms from."
+        ]
       },
       "known_pos": [
-        {"project": "P158 - Damac Lagoons", "cluster": "Mykonos", "ref": "see PMWeb commitment attachments", "status": "signed"}
+        {
+          "project": "P158 - Damac Lagoons",
+          "cluster": "Mykonos",
+          "ref": "see PMWeb commitment attachments",
+          "status": "signed"
+        }
       ],
-      "last_verified": null
+      "last_verified": "2026-10-29"
     },
-
     "al-anwar-ceramics": {
       "display_name": "Al Anwar Ceramic Tiles Co.",
-      "aliases": ["Al Anwar", "Alanwar", "Al Anwar Ceramics", "AACT"],
+      "aliases": [
+        "Al Anwar",
+        "Alanwar",
+        "Al Anwar Ceramics",
+        "AACT"
+      ],
       "category": "Tiles -- GCC manufacturer",
       "origin": "Oman (Sohar)",
-      "legal_name": {"value": null, "status": "unverified"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified", "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": null,
+        "status": "unverified"
+      },
+      "address": {
+        "value": null,
+        "status": "unverified"
+      },
+      "trn": {
+        "value": null,
+        "status": "unverified",
+        "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"
+      },
+      "contact": {
+        "value": null,
+        "status": "unverified"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified", "hint": "AED if billed through a UAE entity; confirm -- affects FX clause"},
-        "vat": {"value": null, "status": "unverified", "hint": "If imported, confirm whether VAT is reverse-charge or charged by a UAE distributor"},
-        "payment_terms": {"value": null, "status": "unverified"},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "Cross-border GCC supply -- confirm DDP site vs CIF/ex-works and who clears customs"},
-        "lead_time": {"value": null, "status": "unverified", "hint": "Include road-freight transit from Sohar"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "Customs clearance / country-of-origin certificate obligations if imported"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026"
+        },
+        "vat": {
+          "value": "VAT imposed by the Government of the UAE is excluded from the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026, cl. Others(i)"
+        },
+        "payment_terms": {
+          "value": "Advance Payment: 7 calendar days from the date the First Party receives an adequate and substantial invoice with required securities. Progress Payment: 60 calendar days from the date the First Party receives the invoice (invoice submitted on delivery of material as certified/approved and on issuance of the Material Inspection Report).",
+          "status": "verified",
+          "source": "PO-2138-2026 cl.4-5; PO-2378-2026 cl.4-5 (same wording, nil advance)"
+        },
+        "advance_payment": {
+          "value": "Where an advance is agreed (seen at 10% on PO-2138-2026; nil on PO-2378-2026): paid against an undated security cheque for the Advance Payment value, issued and signed by the Second Party's authorised representative, with the signature verified/attested by the drawee bank (\"AP Signature Verification\"). A new AP Signature Verification is required every 150 calendar days until completion of the Works.",
+          "status": "verified",
+          "source": "PO-2138-2026 (AED 94,600.00, 10%), cl.3"
+        },
+        "retention": {
+          "value": null,
+          "status": "unverified"
+        },
+        "delivery_terms": {
+          "value": "Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026, Others(ii)(c)(e)"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Include road-freight transit from Sohar"
+        },
+        "warranty": {
+          "value": "1825 calendar days.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026, cl. Warranty"
+        },
+        "ld_clause": {
+          "value": null,
+          "status": "unverified"
+        },
+        "price_validity": {
+          "value": null,
+          "status": "unverified"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
+          "status": "verified",
+          "source": "PO-2138-2026 / PO-2378-2026, Others(ii)(b)"
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": null,
+          "status": "unverified"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Customs clearance / country-of-origin certificate obligations if imported"
+        }
       },
       "format": {
         "template": null,
@@ -96,35 +252,111 @@
         "notes": []
       },
       "known_pos": [],
-      "last_verified": null
+      "last_verified": "2026-10-29"
     },
-
     "graniti": {
       "display_name": "Graniti",
-      "aliases": ["Graniti", "Graniti Fiandre", "Granito"],
+      "aliases": [
+        "Graniti",
+        "Graniti Fiandre",
+        "Granito"
+      ],
       "category": "Porcelain / large-format slabs -- imported",
       "origin": "Italy (confirm exact entity)",
-      "legal_name": {"value": null, "status": "unverified", "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": null,
+        "status": "unverified",
+        "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"
+      },
+      "address": {
+        "value": null,
+        "status": "unverified"
+      },
+      "trn": {
+        "value": null,
+        "status": "unverified"
+      },
+      "contact": {
+        "value": null,
+        "status": "unverified"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified", "hint": "EUR likely for an Italian supplier -- if so the PO needs an FX/conversion note and the AED equivalent for PMWeb"},
-        "vat": {"value": null, "status": "unverified", "hint": "Import -- confirm reverse-charge treatment"},
-        "payment_terms": {"value": null, "status": "unverified", "hint": "Imported goods often LC or advance against proforma -- confirm"},
-        "advance_payment": {"value": null, "status": "unverified", "hint": "If an advance is agreed, state whether an advance payment bank guarantee is required"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "Confirm Incoterm (EXW / FOB / CIF Jebel Ali / DDP site) -- this drives freight, duty and insurance cost ownership"},
-        "lead_time": {"value": null, "status": "unverified", "hint": "Production + sea freight + clearance; state each separately"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified", "hint": "Large-format slabs -- breakage allowance and replacement route matter"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified", "hint": "A-frame / crate requirement for slabs"},
-        "insurance": {"value": null, "status": "unverified", "hint": "Marine insurance -- follows the Incoterm"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "Shipping documents required for clearance: invoice, packing list, BL, COO"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-1386-2026 (confirm if this is Graniti Building Materials LLC's UAE-registered entity, not the Italian mill)"
+        },
+        "vat": {
+          "value": "VAT imposed by the Government of the UAE is excluded from the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1386-2026, cl. Others(i)"
+        },
+        "payment_terms": {
+          "value": "Letter of Credit. First Party provides an LC for 100% of the PO Price inclusive of VAT. Advance Payment = 30% of LC value, paid on submission of an adequate/substantial invoice and a bank guarantee equal to the Advance Payment value (from a UAE-licensed first-class bank, form acceptable to First Party). Progress Payment = 70% of LC value per delivery, paid within 30 calendar days of the First Party receiving invoice, delivery notes certified by the supervision engineer, and a copy of the payment certificate; First Party releases the signed/certified documents within 14 calendar days of delivery to site.",
+          "status": "verified",
+          "source": "PO-1386-2026 cl.6"
+        },
+        "advance_payment": {
+          "value": "30% of the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1386-2026 (AED 495,266.40), cl.4"
+        },
+        "retention": {
+          "value": null,
+          "status": "unverified"
+        },
+        "delivery_terms": {
+          "value": "Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price. Time for Completion of Delivery: 74 calendar days from the Commencement Date (commencement tied to submission of the Advance Payment invoice/securities within 3 calendar days of signing).",
+          "status": "verified",
+          "source": "PO-1386-2026, cl.1-2 and Others(ii)(c)(e)"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Production + sea freight + clearance; state each separately"
+        },
+        "warranty": {
+          "value": "1825 calendar days.",
+          "status": "verified",
+          "source": "PO-1386-2026, cl. Warranty"
+        },
+        "ld_clause": {
+          "value": null,
+          "status": "unverified"
+        },
+        "price_validity": {
+          "value": null,
+          "status": "unverified"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Large-format slabs -- breakage allowance and replacement route matter"
+        },
+        "samples_approval": {
+          "value": "Second Party prepares and submits all necessary samples and technical data for the Nominated Supply Works to the Engineer and the First Party for approval.",
+          "status": "verified",
+          "source": "PO-1386-2026, Others(ii)(b)"
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified",
+          "hint": "A-frame / crate requirement for slabs"
+        },
+        "insurance": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Marine insurance -- follows the Incoterm"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Shipping documents required for clearance: invoice, packing list, BL, COO"
+        }
       },
       "format": {
         "template": null,
@@ -132,38 +364,112 @@
         "requires_shade_calibre_column": true,
         "requires_origin_column": true,
         "requires_shipping_docs_block": true,
-        "notes": ["Imported supply -- PO should carry a shipping-documents clause and the Incoterm in the header."]
+        "notes": [
+          "Imported supply -- PO should carry a shipping-documents clause and the Incoterm in the header."
+        ]
       },
       "known_pos": [],
-      "last_verified": null
+      "last_verified": "2026-10-29"
     },
-
     "pan-europe": {
       "display_name": "Pan Europe",
-      "aliases": ["Pan Europe", "PanEurope", "Pan Europe Ceramics", "Pan Europe General Trading"],
+      "aliases": [
+        "Pan Europe",
+        "PanEurope",
+        "Pan Europe Ceramics",
+        "Pan Europe General Trading"
+      ],
       "category": "Tiles / finishes -- supplier (confirm manufacturer vs trader)",
       "origin": "confirm",
-      "legal_name": {"value": null, "status": "unverified"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": null,
+        "status": "unverified"
+      },
+      "address": {
+        "value": null,
+        "status": "unverified"
+      },
+      "trn": {
+        "value": null,
+        "status": "unverified"
+      },
+      "contact": {
+        "value": null,
+        "status": "unverified"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified"},
-        "vat": {"value": null, "status": "unverified"},
-        "payment_terms": {"value": null, "status": "unverified"},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified"},
-        "lead_time": {"value": null, "status": "unverified"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "If a trader rather than the manufacturer, the PO should bind them to the manufacturer's warranty and name the mill."}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-1547-2026"
+        },
+        "vat": {
+          "value": "VAT imposed by the Government of the UAE is excluded from the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1547-2026, cl. Others(i)"
+        },
+        "payment_terms": {
+          "value": "Advance Payment: 7 calendar days from the date the First Party receives the invoice and required securities. Balance Payment: 30 calendar days from the date the First Party receives the invoice (invoice submitted on delivery of material as certified/approved and on issuance of the Material Inspection Report).",
+          "status": "verified",
+          "source": "PO-1547-2026, cl.4-5"
+        },
+        "advance_payment": {
+          "value": "35% of the Purchase Order Price, paid against an undated security cheque for the Advance Payment value, issued and signed by the Second Party's authorised representative, with the signature verified/attested by the drawee bank (\"AP Signature Verification\"). A new AP Signature Verification is required every 150 calendar days until completion of the Works.",
+          "status": "verified",
+          "source": "PO-1547-2026 (AED 400,822.67), cl.3"
+        },
+        "retention": {
+          "value": null,
+          "status": "unverified"
+        },
+        "delivery_terms": {
+          "value": "Time for Completion of Delivery: 45 calendar days from the date the Second Party receives a copy of the Purchase Order signed by both Parties. Second Party arranges transportation of goods/materials to the Project site, bearing transportation, insurance and associated costs; unloading of tiles at the Project site is excluded from the Second Party's scope and the Purchase Order Price.",
+          "status": "verified",
+          "source": "PO-1547-2026, cl.1 and Others(ii)(c)(e)"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified"
+        },
+        "warranty": {
+          "value": "1825 calendar days.",
+          "status": "verified",
+          "source": "PO-1547-2026, cl. Warranty"
+        },
+        "ld_clause": {
+          "value": null,
+          "status": "unverified"
+        },
+        "price_validity": {
+          "value": null,
+          "status": "unverified"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": "Second Party prepares and submits all necessary samples and technical data for the Works to the Engineer and the First Party for approval.",
+          "status": "verified",
+          "source": "PO-1547-2026, Others(ii)(b)"
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": null,
+          "status": "unverified"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": null,
+          "status": "unverified",
+          "hint": "If a trader rather than the manufacturer, the PO should bind them to the manufacturer's warranty and name the mill."
+        }
       },
       "format": {
         "template": null,
@@ -173,7 +479,7 @@
         "notes": []
       },
       "known_pos": [],
-      "last_verified": null
+      "last_verified": "2026-10-29"
     }
   }
 }
