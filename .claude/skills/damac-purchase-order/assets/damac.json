@@ -1,24 +1,246 @@
 {
-  "_doc": "DAMAC buying-entity defaults. Confirm the entity against the project -- DAMAC contracts through several entities and the wrong one invalidates the PO.",
+  "_doc": "DAMAC buying-entity defaults. Confirm the entity against the project -- DAMAC contracts through several entities and the wrong one invalidates the PO. All entities listed here are members of the DAMAC Development (LLC) VAT group, so they share TRN 100277223200003 (FTA certificate of 01/04/2026). Aqua Viridis had its own TRN 104326385200003 before joining the group on 01/04/2026.",
   "default_entity_key": "damac-properties",
   "entities": {
-    "damac-properties": {
-      "legal_name": {"value": null, "status": "unverified", "hint": "e.g. DAMAC Properties Co. LLC -- take the exact name from a previous signed PO"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified"},
-      "po_box": {"value": null, "status": "unverified"},
+    "damac-mry": {
+      "legal_name": {
+        "value": "Damac MRY Investment LLC",
+        "status": "verified",
+        "source": "PO-1616 (18 Jul 2026); FTA group member no. 45"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/04/2026"
+      },
       "signatory_block": [
-        {"role": "Prepared by", "name": null, "title": "Procurement"},
-        {"role": "Reviewed by", "name": null, "title": "Procurement Manager"},
-        {"role": "Approved by", "name": null, "title": "Head of Procurement"}
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "damac-csl": {
+      "legal_name": {
+        "value": "Damac C S L Investment LLC",
+        "status": "verified",
+        "source": "PO-4325 (21 Oct 2026); FTA group member no. 37"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/01/2026"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "aqua-viridis": {
+      "legal_name": {
+        "value": "Aqua Viridis Investment LLC",
+        "status": "verified",
+        "source": "PO-4382 (14 Oct 2026); FTA group member no. 46"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/04/2026"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "island-oasis": {
+      "legal_name": {
+        "value": "Island Oasis Properties LLC",
+        "status": "verified",
+        "source": "PO-2378 (29 Jun 2026); FTA group member no. 15"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/01/2018"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "damac-elite": {
+      "legal_name": {
+        "value": "Damac Elite Investment Co LLC",
+        "status": "verified",
+        "source": "PO P179.0302 (Maldives 2); FTA group member no. 50"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/04/2026"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "modular-innovations": {
+      "legal_name": {
+        "value": "Modular Innovations LLC",
+        "status": "verified",
+        "source": "PO MODI-PO-002703 (1 Aug 2026); FTA group member no. 43"
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/04/2026"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
+      ]
+    },
+    "damac-properties": {
+      "legal_name": {
+        "value": "Damac Properties Co. LLC",
+        "status": "unverified",
+        "source": "FTA group member no. 7; not seen on a PO",
+        "note": "Registered group member, but no PO in OneDrive names it as buyer. Pick the project's actual entity."
+      },
+      "address": {
+        "value": "P.O. Box 2195, Dubai, U.A.E. Tel +971 4 373 1000, Fax +971 4 373 1321",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "po_box": {
+        "value": "2195, Dubai",
+        "status": "verified",
+        "source": "Letterhead on DAMAC POs (e.g. PO-1616, PO-4325, PO-4382, 2026)"
+      },
+      "trn": {
+        "value": "100277223200003",
+        "status": "verified",
+        "source": "FTA VAT Group certificate, DAMAC DEVELOPMENT (LLC), version 2018/VAT/MIGRATION/030, issued 01/04/2026; member since 01/01/2018"
+      },
+      "signatory_block": [
+        {
+          "role": "Authorised Signatory of First Party",
+          "name": "Mohammad Al Tahaineh",
+          "title": "Chief Project Officer",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026, 18 Jul 2026 (printed under the signature block)"
+        }
       ]
     }
   },
   "projects": {
-    "P158": {"name": "Damac Lagoons", "clusters": ["Mykonos"]},
-    "P110": {"name": "Damac City (Al Safa Park)", "clusters": []},
-    "P106": {"name": "Damac Hills 2", "clusters": []},
-    "BDP200.002": {"name": "Shoreline", "clusters": []}
+    "P158": {
+      "name": "Damac Lagoons",
+      "clusters": [
+        "Mykonos"
+      ]
+    },
+    "P110": {
+      "name": "Damac City (Al Safa Park)",
+      "clusters": []
+    },
+    "P106": {
+      "name": "Damac Hills 2",
+      "clusters": []
+    },
+    "BDP200.002": {
+      "name": "Shoreline",
+      "clusters": []
+    }
   },
-  "_projects_note": "Codes observed in PMWeb records. Extend as needed; the builder does not require a project to be listed here."
+  "_projects_note": "Codes observed in PMWeb records. Extend as needed; the builder does not require a project to be listed here.",
+  "_entities_not_added": "Damac Vertex Real Estate Development LLC OPC (RAK; TRN not read from its certificate), Damac Business Real Estate Co LLC, Creon Holding Co Ltd, Damac Integrated Management FZ LLC, Vita Heights Co Ltd (Maldives)."
 }
