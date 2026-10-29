@@ -14,31 +14,31 @@ AED; and shipping documents become a contractual deliverable.
 ## Identity
 | Field | Value | Source |
 |---|---|---|
-| Legal name | | |
-| Address | | |
-| TRN | | |
-| Contact | | |
+| Legal name | GRANITI BUILDING MATERIALS (L.L.C.) | FTA VAT registration certificate (issued 18/12/2017) |
+| Address | Al Shaya Building, Showroom No. 6, Salahu Din Street, Deira, Dubai, UAE. P.O. Box 29860. Tel +971 4 269 1377 | FTA VAT registration certificate |
+| TRN | 100215971100003 | FTA VAT registration certificate (effective 01/01/2018) |
+| Contact | Mr. Haider Ali, +971 52 690 6338 | PO P176-...-PO-4382-2026 (14 Oct 2026) |
 | Manufacturer or trader? | | |
 
 ## Agreed terms
 | Term | Agreed wording | Confirmed from | Date |
 |---|---|---|---|
 | Currency | | | |
-| VAT | | | |
+| VAT | VAT imposed by UAE Government is excluded from the Purchase Order Price | PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy) | 2026-10-14 |
 | Payment terms | | | |
 | Advance payment | | | |
 | Retention | | | |
-| Delivery terms / Incoterm | | | |
+| Delivery terms / Incoterm | Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price | PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy) | 2026-10-14 |
 | Lead time | | | |
 | Price validity | | | |
 | Samples & approval | | | |
 | Breakage / wastage | | | |
 | Packing & marking | | | |
-| Insurance | | | |
+| Insurance | Supplier pays insurance as part of transport/delivery to Project site | PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy) | 2026-10-14 |
 | Title & risk | | | |
-| Warranty / DLP | | | |
+| Warranty / DLP | 1825 calendar days | PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy) | 2026-10-14 |
 | Liquidated damages | | | |
-| Special conditions | | | |
+| Special conditions | Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. | PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy) | 2026-10-14 |
 
 ## Format notes
 - Shade / calibre **and** Origin columns required.

@@ -10,31 +10,31 @@ changes who carries the warranty and whether the PO needs to name the mill.
 ## Identity
 | Field | Value | Source |
 |---|---|---|
-| Legal name | | |
-| Address | | |
-| TRN | | |
-| Contact | | |
+| Legal name | Pan Europe International General Trading Co. LLC | PO P175-...-PO-4325-2026; quotation PEI/DAMAC/QT/26/30 writes it as PAN EUROPE INT'L GEN. TRADING CO. LLC — Check exact name against trade licence or VAT certificate |
+| Address | P.O. Box 80937, Dubai, UAE. Tel +971 4 298 9878, Fax +971 4 298 9879, contact@paneurope-gt.com | Quotation PEI/DAMAC/QT/26/30 (5 Apr 2026) and PO-4325 |
+| TRN | _not found_ | Searched OneDrive and Outlook, 29 Oct 2026 |
+| Contact | Mr. Abdel Qader Al Kadri, +971 55 551 6822 | PO-4325 (21 Oct 2026) |
 | Manufacturer or trader? | | |
 
 ## Agreed terms
 | Term | Agreed wording | Confirmed from | Date |
 |---|---|---|---|
 | Currency | | | |
-| VAT | | | |
+| VAT | VAT imposed by UAE Government is excluded from the Purchase Order Price | PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy) | 2026-10-21 |
 | Payment terms | | | |
 | Advance payment | | | |
 | Retention | | | |
-| Delivery terms / Incoterm | | | |
+| Delivery terms / Incoterm | Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price | PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy) | 2026-10-21 |
 | Lead time | | | |
 | Price validity | | | |
 | Samples & approval | | | |
 | Breakage / wastage | | | |
 | Packing & marking | | | |
-| Insurance | | | |
+| Insurance | Supplier pays insurance as part of transport/delivery to Project site | PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy) | 2026-10-21 |
 | Title & risk | | | |
-| Warranty / DLP | | | |
+| Warranty / DLP | 1825 calendar days | PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy) | 2026-10-21 |
 | Liquidated damages | | | |
-| Special conditions | | | |
+| Special conditions | Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. | PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy) | 2026-10-21 |
 
 ## Format notes
 - Shade / calibre and Origin columns on by default until the supply route is

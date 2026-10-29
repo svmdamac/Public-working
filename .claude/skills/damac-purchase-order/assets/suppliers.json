@@ -19,74 +19,266 @@
     "title_risk": "When title and risk pass to DAMAC",
     "special_conditions": "Anything agreed uniquely with this supplier"
   },
-
   "suppliers": {
     "rak-ceramics": {
       "display_name": "RAK Ceramics PJSC",
-      "aliases": ["RAK", "RAK Ceramics", "RAKCeramics", "Ras Al Khaimah Ceramics"],
+      "aliases": [
+        "RAK",
+        "RAK Ceramics",
+        "RAKCeramics",
+        "Ras Al Khaimah Ceramics"
+      ],
       "category": "Tiles / sanitaryware -- UAE manufacturer",
       "origin": "UAE (Ras Al Khaimah)",
-      "legal_name": {"value": null, "status": "unverified", "hint": "Full registered name + TRN as printed on their invoices"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified", "hint": "15-digit UAE TRN"},
-      "contact": {"value": null, "status": "unverified", "hint": "Sales contact named on previous POs"},
+      "legal_name": {
+        "value": "RAK Ceramics P.J.S.C.",
+        "status": "verified",
+        "source": "Quotation TSQ066 (8 Oct 2026) and PO-1616",
+        "date": "2026-10-08"
+      },
+      "address": {
+        "value": "P.O. Box 4714, Ras Al Khaimah, United Arab Emirates. Tel 00971-7-2467000, Fax 00971-7-2445057, localsales@rakceram.com",
+        "status": "verified",
+        "source": "Quotation TSQ066 letterhead (8 Oct 2026). Note: PO-1616 printed P.O. Box 29860 / Tel 269 1377, which are Graniti's details",
+        "date": "2026-10-08"
+      },
+      "trn": {
+        "value": "100244726400003",
+        "status": "verified",
+        "source": "RAK Ceramics proforma invoices PI-6830 (14 May 2026), PI-6896, PI-7158 (19 Aug 2026)",
+        "date": "2026-08-19"
+      },
+      "contact": {
+        "value": "Mr. Faisal Abdurahman, +971 52 420 0507 (PO attention). Quotations: Saurabh Pathak, Senior Sales Executive, Dubai Project Sales, saurabh.pathak@rakceramics.com",
+        "status": "verified",
+        "source": "PO-1616 (18 Jul 2026); quotation TSQ066",
+        "date": "2026-10-08"
+      },
       "terms": {
-        "currency": {"value": "AED", "status": "unverified", "hint": "Local manufacturer -- AED expected, confirm"},
-        "vat": {"value": "5% UAE VAT, shown separately", "status": "unverified"},
-        "payment_terms": {"value": null, "status": "unverified", "hint": "Local supply -- credit days from invoice/delivery. Read off a previous signed PO."},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified", "hint": "Supply-only POs often carry nil retention -- confirm"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "DDP site expected for a UAE manufacturer; confirm offloading responsibility"},
-        "lead_time": {"value": null, "status": "unverified"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified", "hint": "Shade/calibre approval before bulk production"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-1616 (18 Jul 2026): rates and total in AED",
+          "date": ""
+        },
+        "vat": {
+          "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
+          "date": "2026-07-18"
+        },
+        "payment_terms": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-1616: letter of credit; 80% of each delivery within 30 days of invoice and delivery notes. RAK quotations ask 100% advance or LC."
+        },
+        "advance_payment": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-1616: 20% of PO price via LC."
+        },
+        "retention": {
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
+        },
+        "delivery_terms": {
+          "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
+          "date": "2026-07-18"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-1616: per mutually agreed delivery schedule."
+        },
+        "warranty": {
+          "value": "1825 calendar days",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
+          "date": "2026-07-18"
+        },
+        "ld_clause": {
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "price_validity": {
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-1616 (18 Jul 2026), Others (ii)(b)",
+          "date": ""
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": "Supplier pays insurance as part of transport/delivery to Project site",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
+          "date": "2026-07-18"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
+          "status": "verified",
+          "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
+          "date": "2026-07-18"
+        }
       },
       "format": {
         "template": null,
         "line_item_unit_default": "m2",
         "requires_shade_calibre_column": true,
         "requires_origin_column": false,
-        "notes": ["Previous PMWeb attachment seen as 'Mykonos PO RAKCeramics.pdf' (P158 Damac Lagoons) -- a signed example to learn terms from."]
+        "notes": [
+          "Previous PMWeb attachment seen as 'Mykonos PO RAKCeramics.pdf' (P158 Damac Lagoons) -- a signed example to learn terms from."
+        ]
       },
       "known_pos": [
-        {"project": "P158 - Damac Lagoons", "cluster": "Mykonos", "ref": "see PMWeb commitment attachments", "status": "signed"}
+        {
+          "project": "P158 - Damac Lagoons",
+          "cluster": "Mykonos",
+          "ref": "see PMWeb commitment attachments",
+          "status": "signed"
+        }
       ],
       "last_verified": null
     },
-
     "al-anwar-ceramics": {
       "display_name": "Al Anwar Ceramic Tiles Co.",
-      "aliases": ["Al Anwar", "Alanwar", "Al Anwar Ceramics", "AACT"],
+      "aliases": [
+        "Al Anwar",
+        "Alanwar",
+        "Al Anwar Ceramics",
+        "AACT"
+      ],
       "category": "Tiles -- GCC manufacturer",
       "origin": "Oman (Sohar)",
-      "legal_name": {"value": null, "status": "unverified"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified", "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": "Al Anwar Ceramic Tiles Company SAOG (Oman; C.R. No. 1547623, Muscat)",
+        "status": "verified",
+        "source": "Oman trade licence (valid to 2027) and supplier invoices June 2026",
+        "date": "2026-06-16"
+      },
+      "address": {
+        "value": "Oman office: Suite 301, Beach One Building, Way No. 2601, Shatti Al Qurum, P.O. Box 143, PC 118, Muscat. Factory: P.O. Box 1126, Nizwa, PC 611. Tel (00968) 24649093. Dubai office per PO-2378: 20th Floor, Tecom, Dubai",
+        "status": "unverified",
+        "source": "Invoice AACTCO/001/2026-06 letterhead (scanned text, partly garbled) and PO-2378",
+        "date": "2026-06-16",
+        "note": "Scan text is garbled; confirm against the trade licence"
+      },
+      "trn": {
+        "value": "VATIN OM1100020889 (Oman VAT; UAE TRN not applicable)",
+        "status": "unverified",
+        "source": "Invoice AACTCO/001/2026-06 (16 Jun 2026), read from scan",
+        "date": "2026-06-16",
+        "note": "Digits read from OCR and read two different ways across invoices; confirm before use",
+        "hint": "UAE TRN if supplied through a UAE entity/distributor; otherwise note import route"
+      },
+      "contact": {
+        "value": "Mr. Avit Almeida (Sr. Country Manager), +971 55 439 8394",
+        "status": "verified",
+        "source": "PO P158.14-...-PO-2378-2026 (29 Jun 2026)",
+        "date": "2026-06-29"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified", "hint": "AED if billed through a UAE entity; confirm -- affects FX clause"},
-        "vat": {"value": null, "status": "unverified", "hint": "If imported, confirm whether VAT is reverse-charge or charged by a UAE distributor"},
-        "payment_terms": {"value": null, "status": "unverified"},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "Cross-border GCC supply -- confirm DDP site vs CIF/ex-works and who clears customs"},
-        "lead_time": {"value": null, "status": "unverified", "hint": "Include road-freight transit from Sohar"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "Customs clearance / country-of-origin certificate obligations if imported"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-2378 (29 Jun 2026): rates and total in AED",
+          "date": ""
+        },
+        "vat": {
+          "value": null,
+          "status": "unverified",
+          "hint": "If imported, confirm whether VAT is reverse-charge or charged by a UAE distributor"
+        },
+        "payment_terms": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-2378: only page 1 readable, payment terms not seen."
+        },
+        "advance_payment": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. Not seen."
+        },
+        "retention": {
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
+        },
+        "delivery_terms": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Cross-border GCC supply -- confirm DDP site vs CIF/ex-works and who clears customs"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-2378: delivery by 10 July 2026."
+        },
+        "warranty": {
+          "value": null,
+          "status": "unverified"
+        },
+        "ld_clause": {
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "price_validity": {
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": null,
+          "status": "unverified"
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": null,
+          "status": "unverified"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
+          "status": "verified",
+          "source": "PO P158.14-...-PO-2378-2026 (Island Oasis, Nice 2; page 1 of 4 readable only)",
+          "date": "2026-06-29"
+        }
       },
       "format": {
         "template": null,
@@ -98,33 +290,129 @@
       "known_pos": [],
       "last_verified": null
     },
-
     "graniti": {
       "display_name": "Graniti",
-      "aliases": ["Graniti", "Graniti Fiandre", "Granito"],
+      "aliases": [
+        "Graniti",
+        "Graniti Fiandre",
+        "Granito"
+      ],
       "category": "Porcelain / large-format slabs -- imported",
       "origin": "Italy (confirm exact entity)",
-      "legal_name": {"value": null, "status": "unverified", "hint": "Confirm the exact Graniti entity contracted with -- several similarly named suppliers exist"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": "GRANITI BUILDING MATERIALS (L.L.C.)",
+        "status": "verified",
+        "source": "FTA VAT registration certificate (issued 18/12/2017)",
+        "date": "2017-12-18"
+      },
+      "address": {
+        "value": "Al Shaya Building, Showroom No. 6, Salahu Din Street, Deira, Dubai, UAE. P.O. Box 29860. Tel +971 4 269 1377",
+        "status": "verified",
+        "source": "FTA VAT registration certificate",
+        "date": "2017-12-18"
+      },
+      "trn": {
+        "value": "100215971100003",
+        "status": "verified",
+        "source": "FTA VAT registration certificate (effective 01/01/2018)",
+        "date": "2017-12-18"
+      },
+      "contact": {
+        "value": "Mr. Haider Ali, +971 52 690 6338",
+        "status": "verified",
+        "source": "PO P176-...-PO-4382-2026 (14 Oct 2026)",
+        "date": "2026-10-14"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified", "hint": "EUR likely for an Italian supplier -- if so the PO needs an FX/conversion note and the AED equivalent for PMWeb"},
-        "vat": {"value": null, "status": "unverified", "hint": "Import -- confirm reverse-charge treatment"},
-        "payment_terms": {"value": null, "status": "unverified", "hint": "Imported goods often LC or advance against proforma -- confirm"},
-        "advance_payment": {"value": null, "status": "unverified", "hint": "If an advance is agreed, state whether an advance payment bank guarantee is required"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified", "hint": "Confirm Incoterm (EXW / FOB / CIF Jebel Ali / DDP site) -- this drives freight, duty and insurance cost ownership"},
-        "lead_time": {"value": null, "status": "unverified", "hint": "Production + sea freight + clearance; state each separately"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified", "hint": "Large-format slabs -- breakage allowance and replacement route matter"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified", "hint": "A-frame / crate requirement for slabs"},
-        "insurance": {"value": null, "status": "unverified", "hint": "Marine insurance -- follows the Incoterm"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "Shipping documents required for clearance: invoice, packing list, BL, COO"}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-4382 (14 Oct 2026): rates and total in AED",
+          "date": ""
+        },
+        "vat": {
+          "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
+          "status": "verified",
+          "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
+          "date": "2026-10-14"
+        },
+        "payment_terms": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4382: letter of credit; 70% of each delivery within 30 days of invoice, certified delivery note and payment certificate."
+        },
+        "advance_payment": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4382: 30% against bank guarantee."
+        },
+        "retention": {
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
+        },
+        "delivery_terms": {
+          "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
+          "status": "verified",
+          "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
+          "date": "2026-10-14"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4382: 74 calendar days from commencement date."
+        },
+        "warranty": {
+          "value": "1825 calendar days",
+          "status": "verified",
+          "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
+          "date": "2026-10-14"
+        },
+        "ld_clause": {
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "price_validity": {
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Large-format slabs -- breakage allowance and replacement route matter"
+        },
+        "samples_approval": {
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-4382 (14 Oct 2026), Others (ii)(b)",
+          "date": ""
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified",
+          "hint": "A-frame / crate requirement for slabs"
+        },
+        "insurance": {
+          "value": "Supplier pays insurance as part of transport/delivery to Project site",
+          "status": "verified",
+          "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
+          "date": "2026-10-14"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
+          "status": "verified",
+          "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
+          "date": "2026-10-14"
+        }
       },
       "format": {
         "template": null,
@@ -132,38 +420,135 @@
         "requires_shade_calibre_column": true,
         "requires_origin_column": true,
         "requires_shipping_docs_block": true,
-        "notes": ["Imported supply -- PO should carry a shipping-documents clause and the Incoterm in the header."]
+        "notes": [
+          "Imported supply -- PO should carry a shipping-documents clause and the Incoterm in the header."
+        ]
       },
       "known_pos": [],
       "last_verified": null
     },
-
     "pan-europe": {
       "display_name": "Pan Europe",
-      "aliases": ["Pan Europe", "PanEurope", "Pan Europe Ceramics", "Pan Europe General Trading"],
+      "aliases": [
+        "Pan Europe",
+        "PanEurope",
+        "Pan Europe Ceramics",
+        "Pan Europe General Trading"
+      ],
       "category": "Tiles / finishes -- supplier (confirm manufacturer vs trader)",
       "origin": "confirm",
-      "legal_name": {"value": null, "status": "unverified"},
-      "address": {"value": null, "status": "unverified"},
-      "trn": {"value": null, "status": "unverified"},
-      "contact": {"value": null, "status": "unverified"},
+      "legal_name": {
+        "value": "Pan Europe International General Trading Co. LLC",
+        "status": "verified",
+        "source": "PO P175-...-PO-4325-2026; quotation PEI/DAMAC/QT/26/30 writes it as PAN EUROPE INT'L GEN. TRADING CO. LLC",
+        "date": "2026-10-21",
+        "note": "Check exact name against trade licence or VAT certificate"
+      },
+      "address": {
+        "value": "P.O. Box 80937, Dubai, UAE. Tel +971 4 298 9878, Fax +971 4 298 9879, contact@paneurope-gt.com",
+        "status": "verified",
+        "source": "Quotation PEI/DAMAC/QT/26/30 (5 Apr 2026) and PO-4325",
+        "date": "2026-10-21"
+      },
+      "trn": {
+        "value": null,
+        "status": "unverified",
+        "source": "Not found in OneDrive or Outlook"
+      },
+      "contact": {
+        "value": "Mr. Abdel Qader Al Kadri, +971 55 551 6822",
+        "status": "verified",
+        "source": "PO-4325 (21 Oct 2026)",
+        "date": "2026-10-21"
+      },
       "terms": {
-        "currency": {"value": null, "status": "unverified"},
-        "vat": {"value": null, "status": "unverified"},
-        "payment_terms": {"value": null, "status": "unverified"},
-        "advance_payment": {"value": null, "status": "unverified"},
-        "retention": {"value": null, "status": "unverified"},
-        "delivery_terms": {"value": null, "status": "unverified"},
-        "lead_time": {"value": null, "status": "unverified"},
-        "warranty": {"value": null, "status": "unverified"},
-        "ld_clause": {"value": null, "status": "unverified"},
-        "price_validity": {"value": null, "status": "unverified"},
-        "breakage_wastage": {"value": null, "status": "unverified"},
-        "samples_approval": {"value": null, "status": "unverified"},
-        "packing_marking": {"value": null, "status": "unverified"},
-        "insurance": {"value": null, "status": "unverified"},
-        "title_risk": {"value": null, "status": "unverified"},
-        "special_conditions": {"value": null, "status": "unverified", "hint": "If a trader rather than the manufacturer, the PO should bind them to the manufacturer's warranty and name the mill."}
+        "currency": {
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-4325 (21 Oct 2026): rates and total in AED",
+          "date": ""
+        },
+        "vat": {
+          "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
+          "status": "verified",
+          "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
+          "date": "2026-10-21"
+        },
+        "payment_terms": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: balance within 30 days of invoice, after approved material inspection report."
+        },
+        "advance_payment": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: 35% against undated security cheque, paid 7 days from invoice."
+        },
+        "retention": {
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
+        },
+        "delivery_terms": {
+          "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
+          "status": "verified",
+          "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
+          "date": "2026-10-21"
+        },
+        "lead_time": {
+          "value": null,
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: 45 calendar days from signed PO."
+        },
+        "warranty": {
+          "value": "1825 calendar days",
+          "status": "verified",
+          "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
+          "date": "2026-10-21"
+        },
+        "ld_clause": {
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "price_validity": {
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
+        },
+        "breakage_wastage": {
+          "value": null,
+          "status": "unverified"
+        },
+        "samples_approval": {
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-4325 (21 Oct 2026), Others (ii)(b)",
+          "date": ""
+        },
+        "packing_marking": {
+          "value": null,
+          "status": "unverified"
+        },
+        "insurance": {
+          "value": "Supplier pays insurance as part of transport/delivery to Project site",
+          "status": "verified",
+          "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
+          "date": "2026-10-21"
+        },
+        "title_risk": {
+          "value": null,
+          "status": "unverified"
+        },
+        "special_conditions": {
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
+          "status": "verified",
+          "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
+          "date": "2026-10-21"
+        }
       },
       "format": {
         "template": null,

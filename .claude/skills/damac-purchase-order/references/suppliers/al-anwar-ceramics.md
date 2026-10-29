@@ -11,10 +11,10 @@ three before issuing.
 ## Identity
 | Field | Value | Source |
 |---|---|---|
-| Legal name | | |
-| Address | | |
-| TRN | | |
-| Contact | | |
+| Legal name | Al Anwar Ceramic Tiles Company SAOG (Oman; C.R. No. 1547623, Muscat) | Oman trade licence (valid to 2027) and supplier invoices June 2026 |
+| Address | Oman office: Suite 301, Beach One Building, Way No. 2601, Shatti Al Qurum, P.O. Box 143, PC 118, Muscat. Factory: P.O. Box 1126, Nizwa, PC 611. Tel (00968) 24649093. Dubai office per PO-2378: 20th Floor, Tecom, Dubai **(unverified)** | Invoice AACTCO/001/2026-06 letterhead (scanned text, partly garbled) and PO-2378 — Scan text is garbled; confirm against the trade licence |
+| TRN | VATIN OM1100020889 (Oman VAT; UAE TRN not applicable) **(unverified)** | Invoice AACTCO/001/2026-06 (16 Jun 2026), read from scan — Digits read from OCR and read two different ways across invoices; confirm before use |
+| Contact | Mr. Avit Almeida (Sr. Country Manager), +971 55 439 8394 | PO P158.14-...-PO-2378-2026 (29 Jun 2026) |
 | Manufacturer or trader? | | |
 
 ## Agreed terms
@@ -35,7 +35,7 @@ three before issuing.
 | Title & risk | | | |
 | Warranty / DLP | | | |
 | Liquidated damages | | | |
-| Special conditions | | | |
+| Special conditions | Re-measurable PO: price adjusts to actual quantities at PO unit rates. | PO P158.14-...-PO-2378-2026 (Island Oasis, Nice 2; page 1 of 4 readable only) | 2026-06-29 |
 
 ## Format notes
 - Shade / calibre column required.
