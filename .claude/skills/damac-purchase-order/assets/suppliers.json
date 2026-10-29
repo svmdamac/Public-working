@@ -57,8 +57,9 @@
       "terms": {
         "currency": {
           "value": "AED",
-          "status": "unverified",
-          "hint": "Local manufacturer -- AED expected, confirm"
+          "status": "verified",
+          "source": "PO-1616 (18 Jul 2026): rates and total in AED",
+          "date": ""
         },
         "vat": {
           "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
@@ -69,16 +70,18 @@
         "payment_terms": {
           "value": null,
           "status": "unverified",
-          "hint": "Local supply -- credit days from invoice/delivery. Read off a previous signed PO."
+          "hint": "Set per PO. PO-1616: letter of credit; 80% of each delivery within 30 days of invoice and delivery notes. RAK quotations ask 100% advance or LC."
         },
         "advance_payment": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-1616: 20% of PO price via LC."
         },
         "retention": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Supply-only POs often carry nil retention -- confirm"
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
         },
         "delivery_terms": {
           "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
@@ -88,7 +91,8 @@
         },
         "lead_time": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-1616: per mutually agreed delivery schedule."
         },
         "warranty": {
           "value": "1825 calendar days",
@@ -97,21 +101,26 @@
           "date": "2026-07-18"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "breakage_wastage": {
           "value": null,
           "status": "unverified"
         },
         "samples_approval": {
-          "value": null,
-          "status": "unverified",
-          "hint": "Shade/calibre approval before bulk production"
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-1616 (18 Jul 2026), Others (ii)(b)",
+          "date": ""
         },
         "packing_marking": {
           "value": null,
@@ -128,7 +137,7 @@
           "status": "unverified"
         },
         "special_conditions": {
-          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles.",
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
           "status": "verified",
           "source": "PO MC201.0304-...-PO-1616-2026 (Damac MRY, Olive, signed copy)",
           "date": "2026-07-18"
@@ -192,9 +201,10 @@
       },
       "terms": {
         "currency": {
-          "value": null,
-          "status": "unverified",
-          "hint": "AED if billed through a UAE entity; confirm -- affects FX clause"
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-2378 (29 Jun 2026): rates and total in AED",
+          "date": ""
         },
         "vat": {
           "value": null,
@@ -203,15 +213,19 @@
         },
         "payment_terms": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-2378: only page 1 readable, payment terms not seen."
         },
         "advance_payment": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. Not seen."
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
         },
         "delivery_terms": {
           "value": null,
@@ -221,19 +235,23 @@
         "lead_time": {
           "value": null,
           "status": "unverified",
-          "hint": "Include road-freight transit from Sohar"
+          "hint": "Set per PO. PO-2378: delivery by 10 July 2026."
         },
         "warranty": {
           "value": null,
           "status": "unverified"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "breakage_wastage": {
           "value": null,
@@ -256,7 +274,7 @@
           "status": "unverified"
         },
         "special_conditions": {
-          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates.",
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
           "status": "verified",
           "source": "PO P158.14-...-PO-2378-2026 (Island Oasis, Nice 2; page 1 of 4 readable only)",
           "date": "2026-06-29"
@@ -307,9 +325,10 @@
       },
       "terms": {
         "currency": {
-          "value": null,
-          "status": "unverified",
-          "hint": "EUR likely for an Italian supplier -- if so the PO needs an FX/conversion note and the AED equivalent for PMWeb"
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-4382 (14 Oct 2026): rates and total in AED",
+          "date": ""
         },
         "vat": {
           "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
@@ -320,16 +339,18 @@
         "payment_terms": {
           "value": null,
           "status": "unverified",
-          "hint": "Imported goods often LC or advance against proforma -- confirm"
+          "hint": "Set per PO. PO-4382: letter of credit; 70% of each delivery within 30 days of invoice, certified delivery note and payment certificate."
         },
         "advance_payment": {
           "value": null,
           "status": "unverified",
-          "hint": "If an advance is agreed, state whether an advance payment bank guarantee is required"
+          "hint": "Set per PO. PO-4382: 30% against bank guarantee."
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
         },
         "delivery_terms": {
           "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
@@ -340,7 +361,7 @@
         "lead_time": {
           "value": null,
           "status": "unverified",
-          "hint": "Production + sea freight + clearance; state each separately"
+          "hint": "Set per PO. PO-4382: 74 calendar days from commencement date."
         },
         "warranty": {
           "value": "1825 calendar days",
@@ -349,12 +370,16 @@
           "date": "2026-10-14"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "breakage_wastage": {
           "value": null,
@@ -362,8 +387,10 @@
           "hint": "Large-format slabs -- breakage allowance and replacement route matter"
         },
         "samples_approval": {
-          "value": null,
-          "status": "unverified"
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-4382 (14 Oct 2026), Others (ii)(b)",
+          "date": ""
         },
         "packing_marking": {
           "value": null,
@@ -381,7 +408,7 @@
           "status": "unverified"
         },
         "special_conditions": {
-          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles.",
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
           "status": "verified",
           "source": "PO P176-...-PO-4382-2026 (Aqua Viridis, Casa; unsigned copy)",
           "date": "2026-10-14"
@@ -436,8 +463,10 @@
       },
       "terms": {
         "currency": {
-          "value": null,
-          "status": "unverified"
+          "value": "AED",
+          "status": "verified",
+          "source": "PO-4325 (21 Oct 2026): rates and total in AED",
+          "date": ""
         },
         "vat": {
           "value": "VAT imposed by UAE Government is excluded from the Purchase Order Price",
@@ -447,15 +476,19 @@
         },
         "payment_terms": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: balance within 30 days of invoice, after approved material inspection report."
         },
         "advance_payment": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: 35% against undated security cheque, paid 7 days from invoice."
         },
         "retention": {
-          "value": null,
-          "status": "unverified"
+          "value": "No retention provision in the standard T&C or in the POs read",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO); POs 1616, 4325, 4382",
+          "date": "2026-04-23"
         },
         "delivery_terms": {
           "value": "Supplier arranges transport to Project site and pays transport, insurance and associated costs; unloading at site excluded from supplier scope and price",
@@ -465,7 +498,8 @@
         },
         "lead_time": {
           "value": null,
-          "status": "unverified"
+          "status": "unverified",
+          "hint": "Set per PO. PO-4325: 45 calendar days from signed PO."
         },
         "warranty": {
           "value": "1825 calendar days",
@@ -474,20 +508,26 @@
           "date": "2026-10-21"
         },
         "ld_clause": {
-          "value": null,
-          "status": "unverified"
+          "value": "Liquidated damages per day of delay = 10% of PO price / 10% of total duration of the Works; total capped at 10% of the PO Price (T&C cl. 3)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "price_validity": {
-          "value": null,
-          "status": "unverified"
+          "value": "Rates fixed for the PO: no adjustment for rise or fall in labour, plant or material costs (T&C cl. 6)",
+          "status": "verified",
+          "source": "DAMAC standard Terms and Conditions of Purchase Order, PO-Rev.3-121223_U.A.E (attached to each PO)",
+          "date": "2026-04-23"
         },
         "breakage_wastage": {
           "value": null,
           "status": "unverified"
         },
         "samples_approval": {
-          "value": null,
-          "status": "unverified"
+          "value": "Supplier prepares and submits all necessary samples and technical data to the Engineer and DAMAC for approval",
+          "status": "verified",
+          "source": "PO-4325 (21 Oct 2026), Others (ii)(b)",
+          "date": ""
         },
         "packing_marking": {
           "value": null,
@@ -504,7 +544,7 @@
           "status": "unverified"
         },
         "special_conditions": {
-          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles.",
+          "value": "Re-measurable PO: price adjusts to actual quantities at PO unit rates; no adjustment for rise/fall in material costs. Unloading at site excluded from supplier scope and price. Supplier submits samples/technical data for approval and advises on installation/protection of tiles. Invoices must carry the PO reference and enclose the signed PO, signed original delivery note and warranty / certificate of origin (T&C cl. 5.5). Payment may be made by a DAMAC affiliate (cl. 5.3). Governing law Dubai/UAE; DIAC arbitration seated in Dubai (cl. 13-14).",
           "status": "verified",
           "source": "PO P175-...-PO-4325-2026 (Damac C S L, Volta Tower; unsigned copy)",
           "date": "2026-10-21"
